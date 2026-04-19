@@ -1,0 +1,9 @@
+{
+  "user": {
+    "name": "Ivan",
+    "active": true
+  },
+  "skills": ["Java", "Spring", "SQL"],
+  "score": 5.75,
+  "pet": null
+}
