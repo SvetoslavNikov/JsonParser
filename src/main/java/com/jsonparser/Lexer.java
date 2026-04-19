@@ -107,7 +107,7 @@ public final class Lexer {
             throw new ParseException("Unterminated string literal", tokenLine, tokenColumn, tokenPosition);
         }
 
-        advance(); // closing quote
+        advance(); // closing quote is skipped
         add(TokenType.STRING, sb.toString(), tokenLine, tokenColumn, tokenPosition);
     }
 
